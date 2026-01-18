@@ -1,12 +1,11 @@
-# 📜 Project Title: [Name of your Quote Generator]
+# 📜 Project Title: [Automated Query Generator]
 
 ## 📝 Overview
-[A brief 1-2 sentence description of the app—e.g., "A Python-based containerized application that streams motivational quotes to the console every five seconds."]
+[The repository contains a simple Python application that generates a new motivational quote every five seconds. The core objective of this project was to master Docker, understand image layering, and explore the Container Lifecycle. ]
 
 ---
 
 ## 🏗️ The Containerization Learning Path
-*This section documents my primary goal: mastering Docker.*
 
 ### 1. Understanding the Dockerfile
 I focused on the "recipe" format of a Dockerfile. Here is the structure I used:
@@ -31,8 +30,6 @@ I explored the transition from raw code to a portable image:
 * **Base Image:** [e.g., python:3.9-slim]
 
 ### Project Structure
-[Use a code block here to show your file tree]
-```text
 .
 ├── app.py
 ├── Dockerfile
